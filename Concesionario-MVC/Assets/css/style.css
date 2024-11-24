@@ -1,0 +1,180 @@
+@charset "utf-8";
+html{
+    overflow-y: scroll;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+*{
+    box-sizing: border-box;
+    border: none;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+}
+a:hover{
+    text-decoration: none;
+    color: #ff0000;
+    transition: 0.5s;   
+}
+.mano{
+    cursor: pointer;
+}
+.negrita{
+    font-weight: bold;
+}
+h1 {font-size: 300%;}
+h2 {font-size: 200%;}
+h3 {font-size: 180%;}
+p {font-size: 100%;}
+
+/* INICIO - Menú */
+.menu1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 10vh;
+    width: 100%;
+    padding: 1% 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 10px 0px #b8b8b8;
+    background-color: #ffffff;
+}
+/* FIN - Menú */
+
+/* INICIO - Contendor */
+.contenedor0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 10% 10%;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2% 0;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2% 0;
+}
+.bloque0{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    padding: 1% 0;  
+}
+.bloque1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;   
+}
+.bloque2{
+    width: 30%;   
+}
+/* FIN - Contendor */
+
+/* INICIO - Pie */
+.pie1{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 10vh;
+    width: 100%;
+    padding: 1% 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 10px 0px #b8b8b8;
+    background-color: #ffffff;
+}
+/* FIN - Pie */
+
+/* INICIO - Controles */
+input, textarea, checkbox, submit, select{
+    background-color: #ffffff;
+    color: #000000; 
+    border: 1px solid #e0e0e0;
+    border-radius: 30px;
+    padding: 1% 2%;
+    margin: 1%;
+    text-align: left;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;  
+    cursor: pointer;
+    outline: 0;
+}
+.boton1{
+    background-color:#000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15%;
+}
+.boton1Inhabilitado1{
+    background-color:#a1a1a1;
+    color: #ffffff;
+    border: 1px solid #a1a1a1;
+    width: 15%;
+}
+.campo1{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+}
+input[type="file"]{
+}
+.campoArchivo1::-webkit-file-upload-button{
+    /* Oculta el boton "Elegir archivo" */
+    visibility: hidden;
+}
+.campoArchivo1::before{
+    content: 'Seleccionar archivo';
+    background-color: #ffffff;
+    color: #666666;
+    border-radius: 30px;
+    padding: 1% 2%;
+    margin: 1%;
+    text-align: left;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;  
+    cursor: pointer;
+    outline: 0;
+}
+.campoArchivo1:hover::before{
+    background: #ffffff;
+    color: #000000;
+}
+.campoArchivo1:active::before{
+    background: #ffffff;
+    color: #000000;
+}
+/* FIN - Controles */
