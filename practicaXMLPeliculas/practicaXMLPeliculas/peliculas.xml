@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>
+    <pelicula>
+        <titulo>Vamos de Polis</titulo>
+        <director>Luke Greenfield</director>
+        <duracion>105 min</duracion>
+        <nacionalidad>USA</nacionalidad>
+        <actores>Damon Wayans, Jr., Jake Johnson, Rob Riggle</actores>
+        <genero>Acción, Comedia</genero>
+        <sinopsis>Tras acudir a una fiesta disfrazados de policías, Ryan O'Malley y Justin Miller, dos amigos treintañeros con poco éxito en la vida, descubren el poder que les confieren esos uniformes.</sinopsis>
+        <imagen>img/vamosDePolis.png</imagen>
+        <trailer>img/vamosDePolis.mp4</trailer>
+    </pelicula>
+    <pelicula>
+        <titulo>Free Guy</titulo>
+        <director>Shawn Levy</director>
+        <duracion>115 min</duracion>
+        <nacionalidad>USA</nacionalidad>
+        <actores>Ryan Reynolds, Jodie Comer, Joe Keery, Hugh Jackman</actores>
+        <genero>Comedia, Acción</genero>
+        <sinopsis>Un cajero de un banco descubre que en realidad es un personaje sin papel dentro de un brutal videojuego de mundo interactivo.</sinopsis>
+        <imagen>img/freeGuy.jpg</imagen>
+        <trailer>img/freeGuy.mp4</trailer>
+    </pelicula>
+    <pelicula>
+        <titulo>El Peor Vecino del mundo</titulo>
+        <director>Marc Forster</director>
+        <duracion>126 min</duracion>
+        <nacionalidad>USA</nacionalidad>
+        <actores>Tom Hanks, Mariana Treviño, Rachel Keller, Marc Bayda</actores>
+        <genero>Drama</genero>
+        <sinopsis>Otto es un hombre viudo, malhumorado y huraño que vive en soledad. Un día, una joven familia se muda a la casa de al lado y, contra todo pronóstico, Otto entabla amistad con Marisol, una mujer embarazada, ingeniosa e inteligente.</sinopsis>
+        <imagen>img/peorVecinodelMundo.jpg</imagen>
+        <trailer>img/elPeorVecinodelMundo</trailer>
+    </pelicula>
+    <pelicula>
+        <titulo>Cars</titulo>
+        <director>John Lasseter</director>
+        <duracion>117 min</duracion>
+        <nacionalidad>USA</nacionalidad>
+        <actores>Owen Wilson, Paul Newman, Bonnie Hunt, Larry the Cable Guy</actores>
+        <genero>Animación</genero>
+        <sinopsis>El aspirante a campeón de carreras Rayo McQueen parece que está a punto de conseguir el éxito. Su actitud arrogante se desvanece cuando llega a una pequeña comunidad olvidada que le enseña las cosas importantes de la vida que había olvidado.</sinopsis>
+        <imagen>img/cars.jpg</imagen>
+        <trailer>img/cars.mp4</trailer>
+    </pelicula>
+</peliculas>
