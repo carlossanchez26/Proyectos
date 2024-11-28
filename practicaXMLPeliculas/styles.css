@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: 100vh; 
+}
+
+.seccionIzquierda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1; 
+}
+
+.pelicula {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 45%; 
+    margin-bottom: 20px; 
+}
+
+
+.pelicula:hover {
+    transform: scale(1.05);
+}
+
+.pelicula img {
+    width: auto;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.seccionXML {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1; 
+}
+
+#pelicula-detalles {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
