@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/817cfd5a-cb65-458f-8e4d-e503d19558b8)
+
 ## 🎬 Proyecto: Aplicación Web de Películas
 Este proyecto es una aplicación web diseñada para mostrar una lista de películas junto con sus detalles. Usando tecnologías como HTML, CSS, JavaScript y XML, esta aplicación ofrece una experiencia interactiva para explorar películas, ver trailers y conocer más información, todo de manera dinámica y sin recargar la página.
 
